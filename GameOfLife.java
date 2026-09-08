@@ -103,7 +103,7 @@ public class GameOfLife extends Application {
                     neighbour.alive = true; // define nei
 
                     for(Cell cell2: cellSet){
-                        if(cell2.equals(neighbour)){ // ISSUE
+                        if(cell2.equals(neighbour)){ 
                             System.out.println(neighbour.x + " " + neighbour.y);
 
                             neighborCount+=1; // add to the counter
